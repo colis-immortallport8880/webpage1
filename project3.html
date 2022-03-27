@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>security webpage</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">SAGAR KIROLA</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="https://player.vimeo.com/external/528835639.sd.mp4?s=c7edfd077db1c8c1ba3d534bfbb04802e787cfce&profile_id=164&oauth2_token_id=57447761" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>WELCOME TO CYBER WORLD</h2> 
+          <h3>Exploit The World</h3>
+          <p>Social engineering scams are a particular concern. With these scams, attackers present a post intended to get the target user to click on a link. That link usually leads to the user downloading some malicious code that has the potential to steal information on the user’s computer or mobile device. These scams are sometimes also called phishing and baiting, as well as click-jacking. Whatever they’re called, just know that not every post on social media is safe to click on. You should take special care to treat every link with suspicion, especially those that look like click bait.</p>
+          <a href="#">Exploit</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">exploits</a></li>
+          <li><a href="#">tool</a></li>
+          <li><a href="#">learning material</a></li>
+        </ul>
+      </div>
+      <script>
+          const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+      </script>
+</body>
+
+</html>
